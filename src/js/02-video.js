@@ -1,4 +1,4 @@
-import Player from "@vimeo/player";
+import Player from '@vimeo/player';
 import throttle from 'lodash.throttle';
 
 const currentTime = +localStorage.getItem('videoplayer-current-time') || 0;
